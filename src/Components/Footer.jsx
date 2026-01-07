@@ -13,7 +13,7 @@ const Footer = () => {
     {
       name: "LinkedIn",
       icon: "💼",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://www.linkedin.com/in/-sidharthkamble/",
     },
     { name: "Twitter", icon: "🐦", url: "https://twitter.com/yourusername" },
     { name: "Email", icon: "📧", url: `mailto:${contactInfo.email}` },
