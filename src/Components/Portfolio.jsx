@@ -86,7 +86,7 @@ const Portfolio = () => {
             </div>
           )}
 
-          <h1 className="hero-title">Sidharth</h1>
+          <h1 className="hero-title">Sidharth Kamble</h1>
           <p className="hero-subtitle">Front-end Developer</p>
           <p className="hero-description">
             Passionate about crafting visually stunning, highly responsive, and
