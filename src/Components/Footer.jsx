@@ -23,7 +23,6 @@ const Footer = () => {
     <footer className="footer" id="contact">
       <div className="footer-container">
         <div className="footer-content">
-          {/* Contact Info Section */}
           <div className="footer-section">
             <h3 className="footer-title">Get In Touch</h3>
             <div className="contact-details">
@@ -61,7 +60,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Social Links Section */}
           <div className="footer-section">
             <h3 className="footer-title">Connect With Me</h3>
             <div className="social-links">
@@ -81,7 +79,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links Section */}
           <div className="footer-section">
             <h3 className="footer-title">Quick Links</h3>
             <nav className="footer-nav">
@@ -101,7 +98,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Footer Bottom */}
         <div className="footer-bottom">
           <div className="footer-divider"></div>
           <p className="footer-copyright">
@@ -111,7 +107,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Decorative Elements */}
       <div className="footer-decoration decoration-1"></div>
       <div className="footer-decoration decoration-2"></div>
       <div className="footer-decoration decoration-3"></div>

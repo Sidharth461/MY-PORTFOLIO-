@@ -5,11 +5,9 @@ import "../styles.css";
 import myPhoto from "../assets/profile.jpg";
 
 const Portfolio = () => {
-  // State for profile photo - user can update this
   const [profilePhoto, setProfilePhoto] = useState(myPhoto);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Skills data
   const skills = [
     {
       name: "Java",
@@ -28,13 +26,32 @@ const Portfolio = () => {
       description: "Building interactive UIs with components and hooks",
     },
     {
-      name: "SQL Database",
+      name: "Node.js",
+      icon: "🟢",
+      description: "Server-side JavaScript and scalable backend development",
+    },
+    {
+      name: "Express.js",
+      icon: "🚀",
+      description: "RESTful APIs, routing, and middleware handling",
+    },
+    {
+      name: "MYSQL Database",
       icon: "🗄️",
       description: "Database design, queries, and management",
     },
+    {
+      name: "REST APIs",
+      icon: "🔗",
+      description: "Designing and consuming RESTful web services",
+    },
+    {
+      name: "Postman",
+      icon: "📮",
+      description: "API testing, debugging, and documentation",
+    },
   ];
 
-  // Education data - easily editable
   const education = [
     {
       year: "2020 - 2024",
@@ -62,7 +79,6 @@ const Portfolio = () => {
     <div className="portfolio">
       <Navbar />
 
-      {/* Hero Section */}
       <section className="hero-section gradient-bg" id="home">
         <div className="hero-content">
           <div className="profile-photo-container">
@@ -100,7 +116,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Skills Section */}
       <section className="section" id="skills">
         <div className="container">
           <h2 className="section-title">Skills & Expertise</h2>
@@ -120,7 +135,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Education Section */}
       <section className="section" id="education">
         <div className="container">
           <h2 className="section-title">Education</h2>
